@@ -1,0 +1,30 @@
+current directory: C:/Users/cakee/Desktop/work/cocoon_sample/vender/bundle/gems/bindex-0.8.1/ext/skiptrace
+C:/Ruby/devkit/bin/ruby.exe -r ./siteconf20190810-20900-fh5b3g.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/cakee/Desktop/work/cocoon_sample/vender/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: C:/Users/cakee/Desktop/work/cocoon_sample/vender/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+generating cruby-x64-mingw32.def
+compiling cruby.c
+In file included from C:/Ruby/devkit/include/ruby-2.4.0/ruby.h:33,
+                 from cruby.c:1:
+C:/Ruby/devkit/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: 'const' attribute on function returning 'void' [-Wattributes]
+ CONSTFUNC(void rb_secure_update(VALUE));
+ ^~~~~~~~~
+In file included from C:/Ruby/devkit/include/ruby-2.4.0/ruby/ruby.h:2012,
+                 from C:/Ruby/devkit/include/ruby-2.4.0/ruby.h:33,
+                 from cruby.c:1:
+C:/Ruby/devkit/include/ruby-2.4.0/ruby/intern.h:257:1: warning: 'const' attribute on function returning 'void' [-Wattributes]
+ CONSTFUNC(void rb_error_untrusted(VALUE));
+ ^~~~~~~~~
+C:/Ruby/devkit/include/ruby-2.4.0/ruby/intern.h:259:1: warning: 'const' attribute on function returning 'void' [-Wattributes]
+ CONSTFUNC(void rb_check_trusted(VALUE));
+ ^~~~~~~~~
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: C:/Users/cakee/Desktop/work/cocoon_sample/vender/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190810-20900-1fotkjv/skiptrace/internal
